@@ -1,14 +1,14 @@
-* {margin: 0; padding: 0;} /* обнуляем отступы */
+* {margin: 0; padding: 0;}
 body {
     align-content: center;
-    text-align: center; /* выравниваем все содержимое body по центру */
-    background: #fff; /* цвет фона для наглядности */
+    text-align: center;
+    background: #fff;
 }
 div {
-    width: 800px; /* ширина основного блока */
-    height: 100%; /* высота для наглядности */
-    background: #fdf2ff; /* цвет блока для наглядности */
-    margin: 0 auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+    width: 800px;
+    height: 100%;
+    background: #fdf2ff;
+    margin: 0 auto;
 }
 
 .div2{
@@ -16,9 +16,9 @@ div {
 }
 
 .parent {
-    width: 430px;
-    min-height: 1000px;
-    background: #44c1ff;
+    width: 460px;
+    min-height: 1100px;
+    background: #dfe4ff;
 }
 .rows {
 
@@ -26,18 +26,58 @@ div {
     justify-content: center;
     align-content: center;
     width: 420px;
-    height: 1150px;
+    height: 1080px;
     background: #fefff9;
-    margin: 5px;
+    margin: 18px;
+}
+
+.p{
+    text-align: left;
+    font-size: 10pt;
+    font-family: Arial;
+}
+
+.p2{
+    text-align: center;
+    font-size: 8pt;
+    font-family: "Arial Black";
+}
+
+.p3{
+    text-align: center;
+    font-size: 11pt;
+    font-family: "Times New Roman";
+    color: greenyellow;
 }
 
 .rows2 {
-
-
+    float: left;
+    align-content: space-around;
     justify-content: center;
-    align-content: center;
-    width: 390px;
-    height: 1050px;
+    width: 350px;
+    height: 900px;
+    background: #fefff9;
+    margin: 1px;
+}
+
+
+.rows4 {
+    float: left;
+    align-content: space-around;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background: #fefff9;
+    margin: 1px;
+    margin-left:7%;
+}
+
+.rows3 {
+    float: left;
+    align-content: space-around;
+    justify-content: center;
+    width: 350px;
+    height: 950px;
     background: #fefff9;
     margin: 15px;
 }
@@ -47,9 +87,9 @@ div {
 
     justify-content: center;
     align-content: center;
-    width: 355px;
-    height: 150px;
-    background: #3c6bff;
+    width: 440px;
+    height: 100px;
+    background: #dfe4ff;
     margin: 17px;
 }
 
@@ -57,16 +97,39 @@ input{
     width: 175px;
     height: auto;
 }
+#inp{
+     width: 85px;
+     height: auto;
+ }
 
+#inp2{
+    width: 85px;
+    height: auto;
+}
+
+#inp3{
+    width: 85px;
+    height: auto;
+}
+
+#inp4{
+    width: 300px;
+    height: auto;
+}
 .img{
-    width: 180px;
+     width: 180px;
+     height: 150px;
+ }
+
+.img2{
+    width: 100px;
     height: 150px;
 }
 
 .b1 {
-    background: navy; /* Синий цвет фона */
-    color: white; /* Белые буквы */
-    font-size: 9pt; /* Размер шрифта в пунктах */
+    background: navy;
+    color: white; /
+    font-size: 9pt;
 }
 .new {
     background: -moz-linear-gradient(#D0ECF4, #92e1d2, #f0f4f2);

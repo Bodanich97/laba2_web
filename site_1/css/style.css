@@ -1,14 +1,14 @@
-* {margin: 0; padding: 0;} /* обнуляем отступы */
+* {margin: 0; padding: 0;}
 body {
     align-content: center;
-    text-align: center; /* выравниваем все содержимое body по центру */
-    background: #fff; /* цвет фона для наглядности */
+    text-align: center;
+    background: #fff;
 }
 div {
-    width: 800px; /* ширина основного блока */
-    height: 100%; /* высота для наглядности */
-    background: #fdf2ff; /* цвет блока для наглядности */
-    margin: 0 auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+    width: 800px;
+    height: 100%;
+    background: #fdf2ff;
+    margin: 0 auto;
 }
 
 .div2{
@@ -76,7 +76,15 @@ div {
     font-family: "Arial Black";
 }
 
+.img2{
+    width: 30px;
+    height: 30px;
+}
 
+.img0{
+    width: 410px;
+    height: 50px;
+}
 
 input{
     width: 175px;
@@ -89,9 +97,9 @@ input{
 }
 
 .b1 {
-    background: navy; /* Синий цвет фона */
-    color: white; /* Белые буквы */
-    font-size: 9pt; /* Размер шрифта в пунктах */
+    background: navy;
+    color: white;
+    font-size: 9pt;
 }
 .new {
     background: -moz-linear-gradient(#D0ECF4, #92e1d2, #f0f4f2);
